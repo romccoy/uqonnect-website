@@ -2,19 +2,16 @@
 
 Official public website for UQonnect.
 
-## Brand
-The site uses the official UQonnect logo and its magenta → purple → blue → cyan gradient as the visual source of truth.
+This version adds:
+- Dark UQonnect gradient header
+- Official brand logo
+- Responsive CSS iPhone mockup with UQonnect logo
+- Floating feature cards and neon brand accents
+- App Store / Google Play “coming soon” badges
+- Existing Support, Privacy, Terms, Guidelines and Account Deletion pages
 
-## Pages
-- Home / About
-- Support
-- Privacy Policy
-- Terms of Service
-- Community Guidelines
-- Account Deletion
-
-## Before App Store submission
-- Confirm the final production privacy/data practices and third-party SDK disclosures.
-- Confirm support@uqonnect.com is active.
-- Implement permanent in-app account deletion before submission.
-- Review legal copy before public launch.
+Before App Store submission:
+- Implement permanent in-app account deletion
+- Confirm support@uqonnect.com is active
+- Review final privacy/legal copy and production SDK/data practices
+- Replace “coming soon” store badges with live store links
