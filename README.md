@@ -1,6 +1,9 @@
 # UQonnect Website
 
-Static public website for UQonnect.
+Official public website for UQonnect.
+
+## Brand
+The site uses the official UQonnect logo and its magenta → purple → blue → cyan gradient as the visual source of truth.
 
 ## Pages
 - Home / About
@@ -10,9 +13,8 @@ Static public website for UQonnect.
 - Community Guidelines
 - Account Deletion
 
-## Before launch
-1. Confirm the production domain.
-2. Confirm that support@uqonnect.com exists, or replace it with the correct domain email.
-3. Replace draft legal text as needed after reviewing final production data practices and SDKs.
-4. Add final UQonnect logo/app screenshots if desired.
-5. Do not represent in-app account deletion as available until it is implemented.
+## Before App Store submission
+- Confirm the final production privacy/data practices and third-party SDK disclosures.
+- Confirm support@uqonnect.com is active.
+- Implement permanent in-app account deletion before submission.
+- Review legal copy before public launch.
