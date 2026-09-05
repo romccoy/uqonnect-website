@@ -522,3 +522,66 @@ footer{
     max-width:680px;
   }
 }
+
+
+/* =========================================================
+   DEFINITIVE HERO FIX — direct image only, no pseudo layers
+   ========================================================= */
+.hero-art-wrap::before,
+.hero-art-wrap::after,
+.art-halo{
+  display:none !important;
+  content:none !important;
+}
+
+.hero-art-wrap{
+  position:relative;
+  width:100%;
+  max-width:none;
+  min-height:0;
+  margin:0;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  overflow:visible;
+}
+
+.hero-art{
+  display:block !important;
+  width:min(100%, 860px) !important;
+  max-width:860px !important;
+  height:auto !important;
+  object-fit:contain !important;
+  object-position:center !important;
+  transform:none !important;
+  border-radius:0 !important;
+  box-shadow:none !important;
+  mix-blend-mode:normal !important;
+  filter:drop-shadow(0 24px 42px rgba(42,18,92,.16));
+}
+
+@media(min-width:1121px){
+  .hero-grid{
+    grid-template-columns:minmax(0,.92fr) minmax(560px,1.08fr);
+    gap:12px;
+  }
+
+  .hero-art{
+    width:860px !important;
+    max-width:860px !important;
+  }
+}
+
+@media(max-width:1120px){
+  .hero-art{
+    width:min(100%,760px) !important;
+    max-width:760px !important;
+  }
+}
+
+@media(max-width:820px){
+  .hero-art{
+    width:min(100%,640px) !important;
+    max-width:640px !important;
+  }
+}
